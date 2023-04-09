@@ -20,6 +20,6 @@ public class BookingController {
 
     @GetMapping(path = "/tickets")
     public List<Ticket> getTickets() {
-        return ticketList;
+//        return ticketList;
     }
 }
